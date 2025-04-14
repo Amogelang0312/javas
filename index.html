@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Management</title>
+    <link rel="stylesheet" href="css/index.css"/>
+    <script src="javascript/index.js" defer></script>
+</head>
+<body>
+    <div class="parentContainer">
+        <section class="textbox">
+           <h1>Simple Task Manager</h1>
+           <p>Stay organised and boost your productivity with our easy-to-use task manager. 
+            Create and manage your daily tasks with just a few clicks.</p>
+        </section>
+        <section class="formbox">
+            <main class="free">Try our free 7 days then, R60/m thereafter</main>
+            <form id="onsubmit">
+                <input type="text" placeholder="First Name" required/>
+                <br/>
+                <input type="text" placeholder="Last Name" required/>
+                <br />
+                <input type="email" placeholder="Email" required/>
+                <br/>
+                <input type="password" placeholder="Password" required/>
+                <br/>
+                <button type="submit"> Claim your free trial!</button>
+            </form>
+        </section>
+        <div id="modal" class="modal">
+            <div class="modal-content">
+                <img src="./images/success.png"/>
+                <h1>Your free trail has been activated!</h1>
+                <a href="task.html">Click to create a task</a>
+            </div>
+        </div>
+</body>
+</html>
